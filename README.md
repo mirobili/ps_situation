@@ -1,11 +1,11 @@
 # ps_situation
 
 - Use composer to install dependencies:
-- $ composer install
+$ composer install
 
 - To run application use:
-- $ php index.php input.txt
+$ php index.php input.txt
 
 
 - To run tests use:
-- php vendor/bin/phpunit /tests/.
+php vendor/bin/phpunit /tests/.
