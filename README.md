@@ -1,6 +1,7 @@
 # ps_situation
 
-- To download use: 
+- To download use:
+- 
 $ git clone https://github.com/mirobili/ps_situation.git
 
 or  download as zip file and unpack
