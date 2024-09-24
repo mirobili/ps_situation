@@ -3,9 +3,9 @@
 namespace App;
 use Exception;
 
-class BinProviderMock{
+class BinProviderMock implements BinProviderInterface{
 
-	function get_bin($bin){
+	public function get_bin($bin){
 		
 		
 		/// data from the real bin provider cached to avoid dependency on remote service while runing the tests 

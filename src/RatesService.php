@@ -7,7 +7,7 @@ class RatesService{
 	
 	private $rates;
 	
-	function __construct( private $RatesProvider){
+	function __construct( private RatesProviderInterface $RatesProvider){
 		 
 	}
 	

@@ -5,7 +5,7 @@ namespace App;
 
 class Processor{
 	
-	function __construct( private $BinService, private $RatesService, private $ENV ){
+	function __construct( private BinService $BinService, private RatesService $RatesService, private $ENV ){
 		
 	}
 	
@@ -68,7 +68,6 @@ class Processor{
 				echo "\n";
 
 			}catch(Exception $e){
-
 				// here we could skip the transaction and raise a ticket to application support
 			}
 		}

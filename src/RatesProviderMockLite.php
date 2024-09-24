@@ -2,7 +2,7 @@
 
 namespace App;
 
-class RatesProviderMockLite{
+class RatesProviderMockLite implements RatesProviderInterface{
 	
 	private $rates;
 	

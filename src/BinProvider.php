@@ -4,7 +4,8 @@ namespace App;
 use Exception;
 
 use function PHPUnit\Framework\throwException;
-class BinProvider{
+class BinProvider implements BinProviderInterface
+{
 
 	// function get_bin_country_code($bin):string{
 		// $binResults = file_get_contents('https://lookup.binlist.net/' .$bin);
@@ -14,7 +15,7 @@ class BinProvider{
 		// return $r->country->alpha2 ?? throw new Exception('COUNTRY CODE not found');
 	// }
 	
-	function get_bin($bin){
+	public function get_bin($bin){
 			
 			$url= 'https://lookup.binlist.net/' .$bin;
 			//$binResults = file_get_contents($url);

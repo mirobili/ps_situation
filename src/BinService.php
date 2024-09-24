@@ -4,7 +4,7 @@ namespace App;
 
 
 class BinService{
-	function __construct(private $BinProvider){
+	function __construct(private BinProviderInterface $BinProvider){
 		// $this->BinProvider = $BinProvider;
 	}
 	
